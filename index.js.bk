@@ -1,0 +1,9 @@
+//Vamos fazer a importação do modulo http
+const http = require("http");
+
+//Criar o servidor de backend
+http.createServer(function(require,response){
+    response.writeHead(200,{'content-type':'text/plan'});
+    //vamos escrever ao usuário
+    response.end("Olá, seja bem vindo!");
+}).listen(5028,()=>console.log("Servidor online: http://127.0.0.1:5028"));

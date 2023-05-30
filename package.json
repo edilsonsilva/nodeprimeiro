@@ -1,0 +1,19 @@
+{
+  "name": "primeironode",
+  "version": "1.0.0",
+  "description": "Primeiro projeto em node js para estudo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Projeto",
+    "Servidor"
+  ],
+  "author": "Edilson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
